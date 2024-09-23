@@ -1,1 +1,42 @@
-/* Start coding here */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  height: 50px;
+}
+.navbar-2 {
+  display: flex;
+  gap: 50px;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: auto;
+  margin-top: 200px;
+  margin-left: 100px;
+  gap: 30px;
+}
+.hero-2 {
+  font-size: 60px;
+}
+.hero-3 {
+  font-size: 18px;
+}
+button {
+  background-color: black;
+  color: aliceblue;
+  width: 20%;
+  height: 40px;
+  border-radius: 20px;
+}
